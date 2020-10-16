@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 80vw;
+  margin: auto;
+}
+
+header {
+  background-image: url("/img/walpeperHeader.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh;
+}
+
+header section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: 100%;
+}
+
+header section nav {
+  padding: 2em;
+}
+
+header section nav ul {
+  justify-content: space-around;
+}
+
+header section nav ul li {
+  list-style-type: none;
+  margin: 1em;
+}
+
+header section nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header section h1 {
+  text-align: center;
+  color: white;
+  padding: 4em 0px;
+}
+
+main section h2 {
+  text-align: center;
+  margin-top: 1em;
+}
+
+main section article {
+  align-items: center;
+}
+
+main section article img {
+  height: 70vh;
+  width: auto;
+  margin: 2em;
+}
+
+main section article p {
+  font-size: 1.5em;
+}
+
+footer {
+  background-image: url("/img/walpeperHeader.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+footer section {
+  height: 100%;
+  width: 100%;
+  padding: 3em 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+footer section p {
+  color: white;
+}
